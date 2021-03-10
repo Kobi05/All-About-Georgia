@@ -10,3 +10,7 @@
 	src: url(../fonts/archyedt-bold.ttf);
 	font-family: ArchyEDT;
 }
+@font-face {
+	src: url(../fonts/FiraGo-Bold.ttf);
+	font-family: FiraGo-Bold;
+}
