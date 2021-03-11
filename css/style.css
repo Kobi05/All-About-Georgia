@@ -2,6 +2,9 @@ body {
 	background: rgb(255,255,255);
     background: linear-gradient(137deg, rgba(255,255,255,1) 0%, rgba(246,202,192,1) 100%);
 }
+header {
+	margin-bottom: 60px;
+}
 .header-line {
 	display: flex;
 	width: 100%;
@@ -44,7 +47,6 @@ a {
 	height: 20px;
 }
 .sec-1 {
-	margin-top: 90px;
 	padding: 0px 49px 0px 49px;
 	display: flex;
 	align-items: center;
@@ -81,11 +83,12 @@ a {
 	font-size: 36px;
 	color: #DA1E37;
 	font-family: Datebashvili;
+	text-align: center;
 /*	margin-bottom: 35px;*/
 }
-.home-paragraph {
-	width: 365px;
-	font-size: 12px;
+.paragraph {
+/*	width: 365px;
+*/	font-size: 12px;
 	color: #616161;
 	font-family: Dejavusans;
 }
@@ -105,26 +108,27 @@ a {
 	font-family: ArchyEDT;
 }
 .sec-2 {
-	height: 325px;
-	margin: 90px 0px 90px 0px;
+	margin: 90px 0px 0px 0px;
 	padding: 0px 49px 0px 49px;
 	display: flex;
-	flex-wrap: wrap;
 	flex-direction: column;
 	justify-content: space-between;
 	align-items:center;
 }
 .categories {
+	margin-top: 40px;
 	width: 100%;
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-around;
 }
-.div-category {
+.div-column {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 	flex-direction: column;
 	align-items: center;
+	align-content:space-between;
 }
 .category-shape {
 	height: 198px;
@@ -170,19 +174,21 @@ a {
 	font-size: 18px;
 	color: #C71F37;
 	font-family: Datebashvili;
+	text-align: center;
 }
-.sec-3 {
+.sec-recomended {
+	margin-top: 90px;
 	padding: 0px 49px 0px 49px;
 	display: flex;
-	flex-wrap: wrap;
 	flex-direction: column;
 	justify-content: space-between;
 	align-items:center;
 }
 .div-news {
 	width: 100%;
-	margin-top: 50px;
+	margin-top: 40px;
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-between;
 }
 .news-box {
@@ -268,4 +274,47 @@ footer {
 	font-size: 18px;
 	color: #212121;
 	font-family: ArchyEDT;
+}
+.div-center {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 60px;
+}
+.slash {
+	margin: 0px 8px 0px 8px;
+	font-size: 22px;
+	font-family: Datebashvili;
+	color: #616161;
+}
+.page-location {
+	font-size: 22px;
+	font-family: Datebashvili;
+	color: #616161;
+}
+.page-location-active {
+	font-size: 22px;
+	font-family: Datebashvili;
+	color: #DA1E37;
+}
+.div-stretch {
+	display: flex;
+	flex-wrap: wrap;
+	align-content: stretch;
+}
+.div-spcbtwn {
+	padding: 0px 49px 0px 49px;
+	display: flex;
+	justify-content: space-between;
+}
+.h4 {
+	font-size: 12px;
+	color: #424242;
+	font-family: Datebashvili;
+	text-align: center;
+}
+.logo-article {
+	margin: 20px 0px 0px 0px;
+}
+.logo-article:nth-child(2) {
+	margin-bottom: 40px;
 }
