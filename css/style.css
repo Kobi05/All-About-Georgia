@@ -178,15 +178,14 @@ a {
 }
 .sec-recomended {
 	margin-top: 90px;
-	padding: 0px 49px 0px 49px;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
 	align-items:center;
 }
-.div-news {
+.div-spcbtwn {
 	width: 100%;
 	margin-top: 40px;
+	padding: 0px 49px 0px 49px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
@@ -301,7 +300,7 @@ footer {
 	flex-wrap: wrap;
 	align-content: stretch;
 }
-.div-spcbtwn {
+.div-about {
 	padding: 0px 49px 0px 49px;
 	display: flex;
 	justify-content: space-between;
@@ -317,4 +316,40 @@ footer {
 }
 .logo-article:nth-child(2) {
 	margin-bottom: 40px;
+}
+.shape-vertical {
+	width: 412px;
+    height: 495px;
+    margin: 0px 16px 40px 0px;
+    display: flex;
+	justify-content: center;
+    align-items: center;
+    background-image: url(../img/shape-vertical.svg);
+    background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.tengiz {
+	width: 353px;
+    height: 456px;
+    background-image: url(../img/tengiz-abuladze.png);
+    background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.zaza {
+    width: 334px;
+    height: 456px;
+    background-image: url(../img/zaza-urushadze.png);
+    background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.eldar {
+    width: 412px;
+    height: 424px;
+    background-image: url(../img/eldar-shengelaia.png);
+    background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
