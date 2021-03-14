@@ -1,0 +1,37 @@
+@media (max-width: 1400px) {
+	.shape-vertical {
+		width: 301px;
+		height: 362px;
+	}
+	.tengiz {
+		width: 258px;
+		height: 334px;
+	}
+	.zaza {
+		width: 244px;
+		height: 333px;
+	}
+	.eldar {
+		width: 301px;
+		height: 310px;
+	}
+}
+
+/*@media (max-width: 1200px) {
+	.shape-vertical {
+		width: 260px;
+		height: 312px;
+	}
+	.tengiz {
+		width: 223px;
+		height: 288px;
+	}
+	.zaza {
+		width: 211px;
+		height: 287px;
+	}
+	.eldar {
+		width: 260px;
+		height: 268px;
+	}
+}*/
