@@ -64,6 +64,13 @@
 	.logo-shape, .burger {
 		display: flex;
 	}
+	.page-location, .page-location-active,
+	.slash {
+		font-size: 24px;
+	}
+	.div-wrap {
+		margin-right: 35px;
+	}
 }
 @media (max-width: 900px) {
 	.h1 {
@@ -78,6 +85,7 @@
 	.home-paragraph-responsive {
 		display: flex;
 	}
+
 }
 @media (max-width: 786px) {
 	.sec-1 {
@@ -86,6 +94,23 @@
 	}
 	.div-home-img {
 		margin: 0px 0px 15px 0px;
+	}
+	.div-wrap {
+		margin: 0px;
+	}
+	.div-about {
+		flex-direction: column;
+	}
+	.div-logo-article {
+		margin-top: 40px;
+		flex-direction: unset;
+		flex-wrap: nowrap;
+	}
+	.article-column:nth-child(1) {
+		margin-right: 10px;
+	}
+	.logo-article:nth-child(1), .logo-article:nth-child(2) {
+		margin-bottom: 0px;
 	}
 }
 @media (max-width: 740px) {
@@ -102,15 +127,32 @@
 	.news-box {
 		margin: 0px 15px 0px 0px;
 	}
+	.div-logo-article {
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+	.article-column:nth-child(1) {
+		margin: 0px 0px 15px 0px;
+	}
+	.article-column {
+		width: 100%;
+	}
+	.logo-article {
+		min-width: 70%;
+        max-width: min-content;
+	}
 }
 @media (max-width: 526px) {
 	.categories {
 		justify-content: center;
 	}
+	.logo-article {
+		width: 100%;
+	}
 }
 @media (max-width: 480px) {
 	.sec-1, .div-spcbtwn,
-	.h1, .footer-text {
+	.h1, .footer-text, .div-about {
 		padding: 0px 32px 0px 32px;
 	}
 	.categories {
@@ -124,6 +166,12 @@
 	}
 	.categories, .div-scroll {
 		margin-top: 15px;
+	}
+	.div-center {
+		margin-bottom: 40px;
+	}
+	.page-location, .slash {
+		display: none;
 	}
 }
 @media (max-width: 428px) {
@@ -168,6 +216,11 @@
 	.tianshani {
 		width: 235px;
 		height: 139px;
+	}
+}
+@media (max-width: 324px) {
+	.page-location-active {
+		font-size: 22px;
 	}
 }
 
