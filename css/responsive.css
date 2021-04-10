@@ -62,9 +62,26 @@
 	.div-column {
 		margin: 0px 15px 15px 0px;
 	}
+	.header-line {
+		justify-content: center;
+		flex-direction: column;
+	}
 	nav,
 	.logo {
 		display: none;
+	}
+	nav {
+		margin-top: 40px;
+	}
+	li {
+		margin-bottom: 29px;
+	}
+	ul {
+		flex-direction: column;
+		text-align: center;
+	}
+	nav.active {
+		display: flex;
 	}
 	.logo-shape, .burger {
 		display: flex;

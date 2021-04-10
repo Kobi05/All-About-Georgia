@@ -5,6 +5,9 @@ body {
 header {
 	margin-bottom: 60px;
 }
+a, button {
+	cursor: pointer;
+}
 .header-line {
 	display: flex;
 	width: 100%;
@@ -21,11 +24,16 @@ header {
 .logo-shape {
 	height: 44px;
 	display: none;
+	justify-content: center;
 }
 .burger {
+	position: absolute;
 	height: 18px;
 	color: #212121;
 	display: none;
+	top: 26px;
+	left: 49px;
+	cursor: pointer;
 }
 ul {
 	display: flex;
@@ -51,13 +59,17 @@ a {
 	color: #212121;
 }
 .fa-user {
+	position: absolute;
 	color: #212121;
 	font-size: 16px;
+	top: 26px;
+	right: 49px;
 }
 .sec-1 {
 	padding: 0px 49px 0px 49px;
 	display: flex;
 	align-items: center;
+	justify-content: space-around;
 }
 .div-home-img {
 	margin-right: 230px;
@@ -154,7 +166,7 @@ button {
 	justify-content: space-between;
 	flex-direction: column;
 	align-items: center;
-	align-content:space-between;
+/*	align-content:space-between;*/
 }
 .container-cinema {
 	display: flex;
@@ -552,4 +564,12 @@ footer {
 	font-family: Datebashvili;
 	text-align: center;
 	margin-top: 10px;
+}
+.error-section {
+	margin-bottom: 400px;
+}
+.fa-frown {
+	font-size: 198px;
+	color: #FFD1D1;
+	margin-top: 30px;
 }

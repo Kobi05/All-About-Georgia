@@ -8,20 +8,22 @@
     <link rel="stylesheet" type="text/css" href="css/fonts.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <script src="https://kit.fontawesome.com/6de6aa5275.js" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
 </head>
 <body>
 	<header>
 		<div class="header-line">
-			<div class="burger">
+			<div id="burger" class="burger">
 				<i class="fas fa-bars"></i>
 			</div>
 			<a href="index.html">
 				<img class="logo" src="img/logo.svg" alt="logo">
 				<img class="logo-shape" src="img/logo-shape.svg" alt="logo">
 			</a>
-			<nav>
-				<ul>
+			<nav id="menu">
+				<ul id="open-menu">
 					<li>
 						<a class="li-active" href="index.html">მთავარი</a>
 					</li>
@@ -30,8 +32,8 @@
 					</li>
 					<li>
 						<a href="resources.html">სასწავლო მასალები</a>
+						<i class="fas fa-sort-down"></i>
 					</li>
-					<i class="fas fa-sort-down"></i>
 				</ul>
 			</nav>
 			<div class="user">
@@ -63,7 +65,7 @@
 			    <div class="category-shape">
 				    <div class="img-khinkali"></div>
 			    </div>
-			    <a class="h3" href="#">სამზარეულო</a>
+			    <a class="h3" href="error.html">სამზარეულო</a>
 		    </div>
 		    <div class="div-column">
 			    <div class="category-shape">
@@ -76,14 +78,14 @@
 			    <div class="category-shape">
 				    <div class="img-literature"></div>
 			    </div>
-			    <a class="h3" href="#">ლიტერატურა</a>
+			    <a class="h3" href="error.html">ლიტერატურა</a>
 		    </div>
 
 		    <div class="div-column">
 			    <div class="category-shape">
 				    <div class="img-history"></div>
 			    </div>
-			    <a class="h3" href="#">ისტორია</a>
+			    <a class="h3" href="error.html">ისტორია</a>
 		    </div>
 		</div>
 	</section>
@@ -93,7 +95,7 @@
 		<div class="div-spcbtwn">
 			<div class="news-box">
 				<div class="article-img1">
-					<a href="#">
+					<a href="tengiz.html">
 			    	    <button class="button-article" type="button">ვრცლად</button>
 			        </a>
 				</div>
@@ -101,7 +103,7 @@
 
 			<div class="news-box">
 				<div class="article-img2">
-					<a href="#">
+					<a href="tengiz.html">
 			    	    <button class="button-article" type="button">ვრცლად</button>
 			        </a>
 				</div>
@@ -109,7 +111,7 @@
 
 			<div class="news-box">
 				<div class="article-img3">
-					<a href="#">
+					<a href="tengiz.html">
 			    	    <button class="button-article" type="button">ვრცლად</button>
 			        </a>
 				</div>
@@ -117,7 +119,7 @@
 
 			<div class="news-box">
 				<div class="article-img4">
-			        <a href="#">
+			        <a href="tengiz.html">
 			    	    <button class="button-article" type="button">ვრცლად</button>
 			        </a>
 				</div>
@@ -130,7 +132,7 @@
 			<div class="scroll">
 				<div class="news-box">
 				    <div class="article-img1">
-					    <a href="#">
+					    <a href="tengiz.html">
 			    	        <button class="button-article" type="button">ვრცლად</button>
 			            </a>
 				    </div>
@@ -138,7 +140,7 @@
 
    			    <div class="news-box">
 				    <div class="article-img2">
-					    <a href="#">
+					    <a href="tengiz.html">
 			    	        <button class="button-article" type="button">ვრცლად</button>
 			            </a>
 				    </div>
@@ -146,7 +148,7 @@
 
 			    <div class="news-box">
 				    <div class="article-img3">
-					    <a href="#">
+					    <a href="tengiz.html">
 			    	        <button class="button-article" type="button">ვრცლად</button>
 			            </a>
 				    </div>
@@ -154,7 +156,7 @@
 
 			    <div class="news-box">
 				    <div class="article-img4">
-			            <a href="#">
+			            <a href="tengiz.html">
 			    	        <button class="button-article" type="button">ვრცლად</button>
 			            </a>
 				    </div>
@@ -169,5 +171,8 @@
 			<a class="footer-h4" href="https://www.facebook.com/kobidzeluka/" target="_blank">© ლუკა კობიძე</a>
 		</div>
 	</footer>
+
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
